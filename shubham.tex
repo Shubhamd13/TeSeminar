@@ -39,9 +39,10 @@
 \begin{document}
 \begin{titlepage}
 \newpage
-
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\pagenumbering{gobble}
 \pagestyle{empty}
-\pagenumbering{Roman}
+\pagenumbering{roman}
 
 \thispagestyle{empty}
 \thisfancypage{%
@@ -94,7 +95,7 @@ Academic year 2018-19
 
 \begin{titlepage}
 \begin{center} 
-\addcontentsline{toc}{chapter}{Certificate}
+\addcontentsline{toc}{chapter}{\numberline{}Certificate}
 \begin{figure}[h]
 
 \centerline{\includegraphics[scale=0.8]{logo1}}
@@ -126,9 +127,11 @@ Seminar Guide  & H.O.D \\
 \end{tabular}
 \end{table}
 \vspace{0.8in}
+\hrulefill
 
 This project-based seminar report has been examined by us as per the Savirtibai Phule Pune
-University, Pune, requirements at Dhole Patil College of Engineering on . . . . . . . . . . . ..
+University, Pune, requirements at Dhole Patil College of Engineering on . . . . . . . . . . . . .
+\vspace{0.6in}
 \begin{table} [h]
 \addtolength{\tabcolsep}{65pt}
 \begin{tabular}{c                c  }
@@ -148,7 +151,7 @@ Name \& Sign  & Name \& Sign \\
 \pagenumbering{roman}
 \thispagestyle{empty}
 \renewcommand{\baselinestretch}{1.5}
-\addcontentsline{toc}{chapter}{Acknowledgement}
+\addcontentsline{toc}{chapter}{\numberline{}Acknowledgement}
 {\fontsize{12}{10} \bf ACKNOWLEDGEMENT}\\
 %\section{ACKNOWLEDGMENT}
 \begin{enumerate}
@@ -222,7 +225,7 @@ least, I would like to thank all my friend for their constant help and support.
 \newpage
 \renewcommand{\baselinestretch}{1.5}
 
-\addcontentsline{toc}{chapter}{Abstract}
+\addcontentsline{toc}{chapter}{\numberline{}Abstract}
 \begin{center}
 {\fontsize{14}{12} \bf ABSTRACT}\\
 
@@ -261,7 +264,6 @@ This paper presents a study about IoT that stands to change dramatically the way
  {\setlength{\baselineskip}{1.5\baselineskip}
 \fontsize{16}{14}
 \listoffigures
-\addcontentsline{toc}{chapter}{LIST Of FIGURES}
 
 
 \renewcommand{\headrulewidth}{0.4pt}
@@ -310,45 +312,43 @@ The objectives of this project are:
     \item[4.]To find new use cases we study problems if different disciplines.
 \end{itemize}
 \newpage
-\section{Introduction to IOT to minimize water crisis }
-Water utilities in world are still marching at a greatly deliberate speed when it comes to deal with smart water management. Not anything like gas and electricity, most are in synchronized with the adopted cutting-edge technology. As an IoT solution, SMART2L can play its part in the current developing industry like the new housing development, in supporting the government’s policy on focusing the latest knowledge and technology on water management to ensure sustainable water development resources .  
-Mutual real-time data is a smarter pronouncement . Data collected can be promptly turned into valued data for any reasonable decision making in the entire areas of the company, improving the whole part of the utility's data sharing technique that is normal for daily tasks. Eventually, operators, planners, and managers can obtain continuous, pertinent and precise updates anytime from everywhere despite the need to wait for offline reports or data. 
+\section{Introduction to Prediction of values using Artificial Neural Networks  }
+An artificial neural network (ANN) is a flexible mathematical structure which is capable of identifying complex nonlinear relationships between input and output data sets. ANN models have been found useful and efficient, particularly in problems for which the characteristics of the processes are difficult to describe using physical equations. The neural network itself is not an algorithm, but rather a framework for many different machine learning algorithms to work together and process complex data inputs. They have been made taking reference from the brain cells (neurons). Which alone are not as powerful but when connected in a network can learn any nonlinear function with ease. Neural networks are being applied to many real-life problems today, including speech and image recognition, spam email filtering, finance, and medical diagnosis, to name a few. An artificial neuron is called a perceptron which works mathematically simillar to biological neuron.
 \subsection{Aim and Objectives of Seminar}
 \begin{itemize}
-    \item \textbf{Preservation and Protection of Our Natural Resources:} Conserving water can help preserve our natural resources. Conserving water means more water is available to serve additional water needs, as well as for wildlife and recreation. 
-    \item \textbf{Saving Money for Our Citizens and Our Community :}Conserving water can reduce the amount of money spent each month for household water use
- \item\textbf{Insuring the Reliability of Our Water Supply :} Water conservation can positively affect the reliability of our water supply during periods of high demands (such as the summer months) and during droughts. 
-\item \textbf{Use of IOT to maximize efficient utilization of water.}
+    \item \textbf{Getting a breif understanding of ANNs :} ANN have a wide variety of implementation choices which will be studied ahead.
+    \item \textbf{Understanding the building blocks of a ANN :} To build a bigger picture we need to start small by understanding the building blocks of an ANN.
+ \item\textbf{Measuring the accuracy of ANN in different tasks :} There exist different methods to judge a Machine learning algorithm 
+\item \textbf{Finding real world applications of ANN :} Neural networks are being applied to many real-life problems today, including speech and image recognition, spam email filtering, finance, and medical diagnosis and more is yet to come.
 \end{itemize}
 \newpage
 \chapter{\fontsize{18}{16}\textbf{LITERATURE SURVEY}}
 
-\begin{itemize}
-\item[[1]]\textbf{Paper Title:} "IOT based Water Management".
+\section{Introduction}
 \par
-\textbf{Publish Year}:March,2017
+The age of internet gives us immense power to gain knowledge on different topics. Using this power, ready made libraries were found that accomplished the task such as TensorFlow and scikit-learn in programming language python. But alone this was not enough to develop understanding in the field of ANN. Thus papers given below were referred: 
+\begin{itemize}
+\item[[1]]\textbf{Paper Title:} "Predicting electricity energy consumption: A comparison of regression
+analysis, decision tree and neural networks".
+\par
+\textbf{Publish Year}:August,2005.
 \par
 \textbf{Rescorces/Facilities Used:}
 \begin{itemize}
-    \item 	Water resources,
-	\item Cloud computing,
-\item Internet of Things,
-\item Mobile applications,
-\item Magnetic sensors,
-\item Rotors
+    \item 	Regression model building,
+	\item Neural Network model building,
+\item Model selection criteria,
+\item Neural network analysis
 \end{itemize}
-\item[[2]]\textbf{Paper Title:} "Smart water management using IOT".
+\item[[2]]\textbf{Paper Title:} "Deep Convolutional Neural Networks for Computer-Aided Detection: CNN Architectures, Dataset Characteristics and Transfer Learning".
 \par
-\textbf{Publish Year}:2016
+\textbf{Publish Year}:May,2016
 \par
 \textbf{Rescorces/Facilities Used:}
 \begin{itemize}
-    \item Wireless fidelity
-\item Cloud computing,
-\item Internet of Things,
-\item Mobile applications,
-\item Magnetic sensors
-\item Pins
+    \item Transfer Learning,
+\item Convolutional Neural Networks,
+\item Computer-Aided Detection
 \end{itemize}
 \item[[3]]\textbf{Paper Title:} "Self powered IOT-enabled water monitoring system".
 \par
