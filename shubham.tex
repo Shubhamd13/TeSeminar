@@ -8,6 +8,7 @@
 \usepackage{hyperref}
 \usepackage{fancyhdr}
 \usepackage{fancybox}
+\usepackage[export]{adjustbox}
 \usepackage{times}
 \usepackage{cite}
 \usepackage{graphicx}
@@ -17,6 +18,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{float}
+\usepackage{enumitem}
 \usepackage{pdfpages}
 \usepackage{algorithmic}
 \usepackage{algorithm}
@@ -54,7 +56,7 @@
 {\fontsize{18}{16} \bf {Project Based Seminar Report}}\\
 {\fontsize{18}{16} \it {On }}\\
 \vspace*{0.2in}
-{\fontsize{18}{14} \bf {\lq\lq  Prediction of values using Machine Learning Algorithms \rq\rq}}\\
+{\fontsize{18}{14} \bf {\lq\lq  Prediction of values using Artificial Neural Networks \rq\rq}}\\
 \vspace*{0.2in}
 {\fontsize{12}{16} \bf  Submitted to the}\\
 {\fontsize{12}{16} \bf Savitribai Phule Pune University
@@ -107,7 +109,7 @@ Academic year 2018-19
 {\fontsize{16}{12}\textbf{{CERTIFICATE}} }\\
 \begin{enumerate}
 \vspace{0.3in}
-This is to certify that the project based seminar report entitled \lq\lq \textbf{ “Prediction of values using Machine Learning Algorithms”}
+This is to certify that the project based seminar report entitled \lq\lq \textbf{ Prediction of values using Artificial Neural Networks}
  \rq\rq
 being submitted by \textbf{ Shubham Derhgawen (T150608505)}  is a record of bonafide work carried out by him
 /her under the supervision and guidance\textbf{ Prof. Pooja Kadam } in partial fulfillment of the
@@ -123,7 +125,7 @@ Place : .........................  \\
 \addtolength{\tabcolsep}{65pt}
 \begin{tabular}{c                c  }
 Seminar Guide  & H.O.D \\
- Prof. Pooja Kadam  & Prof. Ameet Zore 
+ Prof. Pooja Kadam  & Prof. Rahul Ghode 
 \end{tabular}
 \end{table}
 \vspace{0.8in}
@@ -156,7 +158,7 @@ Name \& Sign  & Name \& Sign \\
 %\section{ACKNOWLEDGMENT}
 \begin{enumerate}
 \vspace{0.4in}
-The completion of report on \textbf{“Prediction of values using Machine Learning Algorithms”} has given me immense pleasure and knowledge. I am sincerely thankful to Principal \textbf{Dr. N. Walimbe , Prof. Amit Zore} our head of the IT Department, project based seminar guide \textbf{Prof. Pooja Kadam } and project based seminar in charge \textbf{Prof. Rahul Ghode} who have cooperated with me at different stages during the preparation of this report.
+The completion of report on \textbf{“Prediction of values using Artificial Neural Networks”} has given me immense pleasure and knowledge. I am sincerely thankful to Principal \textbf{Dr. N. Walimbe , Prof.Rahul Ghode} our head of the IT Department, project based seminar guide \textbf{Prof. Pooja Kadam } and project based seminar in charge \textbf{Prof. Rahul Ghode} who have cooperated with me at different stages during the preparation of this report.
 
 My sincere thanks to the staff of Information Technologies Department without whose help it
 would not have been possible for me to complete this report. This work is virtually the result of
@@ -232,9 +234,7 @@ least, I would like to thank all my friend for their constant help and support.
 \begin{enumerate}
 \begin{normalsize}
 \vspace{0.4in}
-              The smart management water for maximum use and minimum wastage is essential for reducing the water crisis that the world faces today, all the while contributing to environmental sustainability. The intense use of technologies offers a means for providing the exact amount of water needed for each purpose and use and not a drop more. 
-The Internet of Things (IoT) is the natural choice for smart water management applications, even though the integration of different technologies required for making it work seamlessly in practice is still not fully accomplished. The SMART2L project develops an IoT-based smart water management platform to curb the problem of water crisis and manage water resources efficiently with a hands-on approach. 
-This paper presents a study about IoT that stands to change dramatically the way it impacts on the water crisis in the world. this paper also presents the perspective on the challenges of SMART2L in delivering its service to provide the assistance in solving water crisis especially in managing water resources.
+		 Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to effectively perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to perform the task.Machine learning algorithms are used in a wide variety of applications, such as email filtering, and computer vision, where it is infeasible to develop an algorithm of specific instructions for performing the task. Machine learning is closely related to computational statistics, which focuses on making predictions using computers. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a field of study within machine learning, and focuses on exploratory data analysis through unsupervised learning.In its application across business problems, machine learning is also referred to as predictive analytics.
 \\
 
 \end{normalsize}
@@ -271,7 +271,7 @@ This paper presents a study about IoT that stands to change dramatically the way
 \pagenumbering{arabic}
 \fancyhf{} %reset header and footer
  \pagestyle{fancy}
- \fancyhead[R]{Prediction of values using Machine Learning Algorithms}
+ \fancyhead[R]{Prediction of values using Artificial Neural Networks}
 \fancyfoot[R]{ \thepage}
 \fancyfoot[L]{ Department of Information Technology, DPCOE, Pune }
 
@@ -350,24 +350,11 @@ analysis, decision tree and neural networks".
 \item Convolutional Neural Networks,
 \item Computer-Aided Detection
 \end{itemize}
-\item[[3]]\textbf{Paper Title:} "Self powered IOT-enabled water monitoring system".
-\par
-\textbf{Publish Year}:2018
-\par
-\textbf{Rescorces/Facilities Used:}
-\begin{itemize}
-    \item 	Wireless communication
-\item	Cloud computing,
-\item	Internet of Things,
-\item	Mobile applications,
-\item	Wireless sensor network,
-\item	Temperature measurement
-\end{itemize}
 \end{itemize}
 \par
 \textbf{Advance Research:}
 \par
-All the above research papers have their pros and cons , on the basis of these this project aims to eliminate the disadvantages and glorify the advantages. The difference being not just in managing the water resources or monitoring them but also in taking instant action, reducing wastage an curbing the water crisis.The modernization of monitoring using apps and instant action options furthermore have a humungous effect on the reduction of water wastage. The use of IOT helps in minimizing the error , efforts and improves accuracy of monitoring and response. 
+In the late 1940s, D. O. Hebb created a learning hypothesis based on the mechanism of neural plasticity that became known as Hebbian learning. Hebbian learning is unsupervised learning. This evolved into models for long term potentiation. Researchers started applying these ideas to computational models in 1948 with Turing's B-type machines. Farley and Clark (1954) first used computational machines, then called "calculators", to simulate a Hebbian network. Other neural network computational machines were created by Rochester, Holland, Habit and Duda (1956). Rosenblatt (1958) created the perceptron, an algorithm for pattern recognition. With mathematical notation, Rosenblatt described circuitry not in the basic perceptron, such as the exclusive-or circuit that could not be processed by neural networks at the time. In 1959, a biological model proposed by Nobel laureates Hubel and Wiesel was based on their discovery of two types of cells in the primary visual cortex: simple cells and complex cells. The first functional networks with many layers were published by Ivakhnenko and Lapa in 1965, becoming the Group Method of Data Handling.
 
 
 \chapter{\fontsize{16}{14}\textbf{Perceptron\hfill}}
@@ -380,112 +367,190 @@ The most fundamental unit of a deep neural network is called an artificial neuro
 \begin{figure}[H]
 \begin{center}
 \fbox{\includegraphics[width=8cm]{percep.png}}
+\caption{\text{Perceptron Model}}
 \end{center}
 \end{figure}
 
 \section{Definition}
 The perceptron is an algorithm for supervised learning of binary classifiers. the perceptron is an algorithm for learning a binary classifier called a threshold function: a function that maps its input $\mathbf {x}$  (a real-valued vector) to an output value $ f(\mathbf {x} )$ (a single binary value):
 $f(\mathbf{x})=\left\{\begin{array}{ll}{1} & {\text { if } \mathbf{w} \cdot \mathbf{x}+b>0} \\ {0} & {\text { otherwise }}\end{array}\right.$\\
-where $ \mathbf {w}$  is a vector of real-valued weights,$ {\displaystyle \mathbf {w} \cdot \mathbf {x} }$ is the dot product$ {\displaystyle \sum _{i=1}^{m}w_{i}x_{i}} $where m is the number of inputs to the perceptron, and b is the bias. The bias shifts the decision boundary away from the origin and does not depend on any input value.
+where $ \mathbf {w}$  is a vector of real-valued weights,$ {\displaystyle \mathbf {w} \cdot \mathbf {x} }$ is the dot product$ {\displaystyle \sum _{i=1}^{m}w_{i}x_{i}} $where m is the number of inputs to the perceptron, and b is the bias. The bias shifts the decision boundary away from the origin and does not depend on any input value.\cite{DUMMY:1}
+\par
+It can be mathematically written as :
+$$
+\begin{aligned} \hat{y}=& \Theta\left(w_{1} x_{1}+w_{2} x_{2}+\ldots+w_{n} x_{n}+b\right) \\=& \Theta(\mathbf{w} \cdot \mathbf{x}+b) \\ & \text { where } \Theta(v)=\left\{\begin{array}{ll}{1} & {\text { if } v \geqslant 0} \\ {0} & {\text { otherwise }}\end{array}\right. \end{aligned}
+$$
+which tells us that it is a basic linear equation.
+\section{Limitations}
+\par
+The Perceptron ,even though is the building block of all Artificial Neural Network models, is a linear binary classifier and hence can only solve simple problems upon learning ,for example learning
+\begin{enumerate}[label=(\Alph*)]
+\item \textbf{OR Gate} The logical or gate has the output \textbf{1} for all inputs except when both are \textbf{0}.  
+\begin{figure}[H]
+\includegraphics[width=8cm,height=7cm,center]{orgate.jpg}
+\caption{\text{OR Gate}}
+\end{figure}
+When seen in a 2D plane with outputs plotted gives us the visual of OR gate in a graph. Now this graph can be seperated by a straight line as shown below to differentiate between the outputs with value 1 and value 0.\\
+such a line's equation can be generated as $y$ with ,
+$w 1=1, w 2=1, b=-0.5$ gives us the equation: $$y =A + B -0.5$$
+\begin{figure}[H]
+\includegraphics[center]{res.png}
+\caption{\text{Perceptron Classification Result}}
+\end{figure}
+\item Simillary, All other basic logic gates can be made using a single perceptron. Whereas making a XOR Gate is impossible with just a single perceptron. To do this we require a network of these perceptron as we already know XOR can be represented as combination of AND \& OR gate in boolen equation as:
+$$
+\mathbf{A} \oplus \mathbf{B}=\mathbf{A} \overline{\mathbf{B}}+\overline{\mathbf{A}} \mathbf{B}
+$$
+\end{enumerate}
+
+\chapter{\fontsize{16}{14}\textbf{Artificial Neural Networks\hfill}}
+\section{Introduction}
+\par
+“Neural“ is an adjective for neuron, and “network” denotes a graph like structure.
+Artificial Neural Networks are also referred to as “neural nets” , “artificial neural systems”, “parallel distributed processing systems”, “connectionist systems”.
+Artificial Neural Network (ANNs) are programs designed to solve any problem by trying to mimic the structure and the function of our nervous system.
+Neural networks are based on simulated neurons, Which are joined together in a variety of ways to form networks.
+\begin{figure}[H]
+\includegraphics[height=7cm,center]{neural.png}
+\caption{\text{Neural Network}}
+\end{figure}
+\newpage
+\section{History}
+Neural network simulations appear to be a recent development. However, this field was
+established before the advent of computers, and has survived at least one major setback and
+several eras. 
+\par
+Many importand advances have been boosted by the use of inexpensive computer emulations.
+Following an initial period of enthusiasm, the field survived a period of frustration and disrepute.
+During this period when funding and professional support was minimal, important advances
+were made by relatively few reserchers. These pioneers were able to develop convincing
+technology which surpassed the limitations identified by Minsky and Papert. Minsky and Papert,
+published a book (in 1969) in which they summed up a general feeling of frustration (against
+neural networks) among researchers, and was thus accepted by most without further analysis.
+Currently, the neural network field enjoys a resurgence of interest and a corresponding increase
+in funding. 
+\par
+The first artificial neuron was produced in 1943 by the neurophysiologist Warren McCulloch and
+the logician Walter Pits. But the technology available at that time did not allow them to do too
+much
+
+\section{Architecture of neural networks}
+\subsection{Feed-forward networks}
+Feed-forward ANNs allow signals to travel one way only; from input to output. There
+is no feedback (loops) i.e. the output of any layer does not affect that same layer. Feed-forward
+ANNs tend to be straight forward networks that associate inputs with outputs. They are
+extensively used in pattern recognition. This type of organisation is also referred to as bottom-up
+or top-down. 
+\begin{figure}[H]
+\includegraphics[height=7cm,center]{ffnn.png}
+\caption{\text{Feed Forward Neural Network}}
+\end{figure}
+\subsection{Feedback networks}
+Feedback networks can have signals travelling in both directions by introducing loops
+in the network. Feedback networks are very powerful and can get extremely complicated.
+Feedback networks are dynamic; their 'state' is changing continuously until they reach an
+equilibrium point. They remain at the equilibrium point until the input changes and a new
+equilibrium needs to be found. Feedback architectures are also referred to as interactive or
+recurrent, although the latter term is often used to denote feedback connections in single-layer
+organisations.
+
+\begin{figure}[H]
+\includegraphics[height=5cm,center]{fbnn.png}
+\caption{\text{Feed back Neural Network}}
+\end{figure}
+\newpage
+\subsection{Network layers}
+\par
+The commonest type of artificial neural network consists of three groups, or layers, of units: a
+layer of "input" units is connected to a layer of "hidden" units, which is connected to a layer of
+"output" units.
+\par
+This simple type of network is interesting because the hidden units are free to construct their own
+representations of the input. The weights between the input and hidden units determine when
+each hidden unit is active, and so by modifying these weights, a hidden unit can choose what it
+represents.
+\begin{figure}[H]
+\includegraphics[width=15cm,height=7cm,center]{slvsml.jpeg}
+\caption{\text{Single Layer VS Multi-layer Neural Network}}
+\end{figure}
+\par
+We also distinguish single-layer and multi-layer architectures. The single-layer organisation, in
+which all units are connected to one another, constitutes the most general case and is of more
+potential computational power than hierarchically structured multi-layer organisations. In multilayer networks, units are often numbered by layer, instead of following a global numbering.
 
 \newpage
-The information gathered from the real-time monitoring will be benefited department of water resources and also the public. The main idea of a real-time IOT-based water resources information system is to convey inclusive and precise figures
-\begin{figure}
-\begin{center}
-\fbox{\includegraphics[width=10cm]{fig_01.png}}
-\caption{\text{Real-time IOT-based water resources Information System }}
-\end{center}
-\end{figure}
-\pagebreak
-\section{How it Works?}
-\par
-SMART2L system integrates the usage of Arduino Yun. A reserve tank, batteries (power supply), water tank and water pump are used to set up the water pump system. The reserve tank is connected to the main tank via a water pump. The water pump is used to pump water from reserve to the main tank and is controlled by the main tank’s water threshold, which turns on/off the water pump. This is the most common method of threshold level control for the main tank which simply to start the water pump at its low level and permits it to run until the water is filled up.
-
-\begin{figure}
-\begin{center}
-\fbox{\includegraphics[width=8cm]{fig.png}}
-\caption{\text{Flow of Real-time IOT-based water resources Information System }}
-\end{center}
-\end{figure}
-
-\begin{figure}
-\begin{center}
-\fbox{\includegraphics[width=10cm]{fig_03.jpg}}
-\caption{\text{Model of Real-time IOT-based water resources Information System }}
-\end{center}
-\end{figure}
-\pagebreak
+\section{The Learning Process}
+The memorisation of patterns and the subsequent response of the network can be categorised into
+two general paradigms:
 \begin{itemize}
-    \item[A.]\textbf{Presence of Leaks}
-    \par
-    The liquid sensor will first sense any leakage present either at the valve or the distribution of PVC pipes. If there is a presence of leakage, the Arduino Yun will send an e-mail to notify the users. The decrease in the water below the threshold level will cause Arduino Yun to send an e-mail too. This will cause the pump to automatically pump water and liquid will start to flow from the reservoir to the main tank till it is full. Beforehand, users need to install the SMART2L apps on their smartphone to ensure the users able to monitor SMART2L system through mobile apps as Arduino Yun sends the system data to Firebase.
-\begin{figure}
-\begin{center}
-\fbox{\includegraphics[width=8cm]{fig_02.png}}
-\caption{\text{Mobile Based Application for  IOT-based water resources Information System }}
-\end{center}
-\end{figure}
-\newpage
-    \item[B.]\textbf{The absence of Leaks; Low Threshold}
-On the other hand, in the absence of leakage                    the SMART2L  system continuously still sense the liquid threshold through eTape sensor. Any changes, Arduino Yun will send notification through e-mail. Simultaneously, the shape sensor monitors the threshold level as a step taken to prevent the liquid from overflowing. Real-time data will continuously be updated to Firebase.
-The information of the SMART2L system that is gathered in Firebase to view overall data. The data will be constantly updated in the real-time following any changes happen within the system. Firebase is used together to store the analytics info gathered from all the available sensors in the SMART2L system. The information in Firebase is stored in JSON format. Every updated, added or deleted information can be observed in real-time and colors flashing in the cloud database based on Fig.3.5 signifying such actions are being done. 
-\begin{figure}
-\begin{center}
-\fbox{\includegraphics[width=10cm]{fig_04.png}}
-\caption{\text{Block Diagram of Smart2L }}
-\end{center}
-\end{figure}
+\item \textbf{Associative mapping} in which the network learns to produce a particular pattern on the set of
+input units whenever another particular pattern is applied on the set of input units. The associtive
+mapping can generally be broken down into two mechanisms: 
+\begin{itemize}
+\item \textbf{Auto-association}: an input pattern is associated with itself and the states of input and output
+units coincide. This is used to provide pattern completition, ie to produce a pattern whenever a
+portion of it or a distorted pattern is presented. In the second case, the network actually stores
+pairs of patterns building an association between two sets of patterns. 
+\item \textbf{Hetero-association}: is related to two recall mechanisms:
+\begin{itemize}
+\item \textbf{Nearest-neighbour recall} where the output pattern produced corresponds to the input pattern
+stored, which is closest to the pattern presented, and 
+\item \textbf{Interpolative recall} where the output pattern is a similarity dependent interpolation of the
+patterns stored corresponding to the pattern presented. Yet another paradigm, which is a variant
+associative mapping is classification, ie when there is a fixed set of categories into which the
+input patterns are to be classified. 
 \end{itemize}
-\par
-Apart from that, the users will also receive an email notification on alerting the users about the water threshold as well as if any leakage present.
-\begin{figure}
-\begin{center}
-\fbox{\includegraphics[width=8cm]{fig_05.jpg}}
-\caption{\text{Email Alert }}
-\end{center}
-\end{figure}
-\pagebreak
-
+\end{itemize}
+\item \textbf{Regularity detection} in which units learn to respond to particular properties of the input
+patterns. Whereas in asssociative mapping the network stores the relationships among patterns,
+in regularity detection the response of each unit has a particular 'meaning'. This type of learning
+mechanism is essential for feature discovery and knowledge representation. 
+\end{itemize}
+Every neural network posseses knowledge which is contained in the values of the connections
+weights. Modifying the knowledge stored in the network as a function of experience implies a
+learning rule for changing the values of the weights.
+\newpage
 \chapter{\fontsize{16}{14}\textbf{CONCLUSION}}
 
 \par
-Investing in the current cutting-edge technology like the Internet of Things (IoT) really gives great impact in curbing the issues related to the water crisis and water management. The existing systems employ additional period to gather data and focus less on the insights of the data. Most of the existing systems require the manual collection of data. 
+In the context of the reference taken from the research paper the ANN brings out the best result. This study illustrates how
+this concept can be used to predict electricity energy
+consumption in Hong Kong. When comparing accuracy in
+predicting electricity energy consumption, it is found that
+the decision tree model and neural network model perform
+slightly better than other models in the summer and winter
+phases, respectively. 
 \par
-The SMART2L monitoring system, an IoT-based system able to deliver a better solution in monitoring the water resources which equipped with proper sensors. A faulty pipe can leak anywhere within seconds. Without proper flow sensor monitoring on sites, a basic break like this could be resulted in losing substantial amounts of water and can take weeks to be made conscious of the matter
+Following are the advantages of ANN: 
+\begin{itemize}
+\item  Easy to use and understand. 
+\item Can handle both categorical and numerical data. 
+\item Resistant to outliers, hence require little data preprocessing. 
+\item New features can be easily added. 
+\item Can be used to build larger classifiers by using ensemble methods.
+\end{itemize}
+
+Following are the disadvantages of decision trees: - Prone to overfitting. - Require some kind of measurement as to how well they are doing. - Need to be careful with parameter tuning. - Can create biased learned trees if some classes dominate.
 \par
-  This real-time visibility and remote access have been so beneficial to the district, that SMART2L system has can now become mandatory especially for all new construction projects.. 
-\par
-Beside that this project can be implemented in a real situation and can hold a market value especially in a residential unit or in industries. This is because it is about time for the residential and also the industry to make a change to appreciate the benefits of IoT since they still reliably engaged to the float technology which marginally inefficient and lacking precisions.
+In my opinion preventing the tree from growing too deep by stopping it before it perfectly classifies the training data. 
 
 \newpage
 \clearpage
-%\chapter{\fontsize{16}{14}\textbf{REFERENCES}}
-\begin{flushright}
-\begin{center}
-\fontsize{16}{14}\textbf{REFERENCES}
-\end{center}
-\end{flushright}
-%\section*{REFERENCES}
-\addcontentsline{toc}{section}{REFERENCES}
-%\textbf{Base Paper:}
-\begin{normalsize}
-
-\end{normalsize}
+\renewcommand{\bibname}{REFERENCES}
+\bibliography{ref1} 
+\bibliographystyle{ieeetr}
 \begin{itemize}
-\item[[1]] S. M. Shahabudin. Water Malaysia 2015. (2), 3-22. 
+\item[[2]]Yan YY. Climate and residential electricity consumption in Hong
+Kong. Energy 1998;23:17–20. 
+\item[[3]]Ranjan M, Jain VK. Modelling of electrical energy consumption in
+Delhi. Energy 1999;24:351–61. 
+\item[[4]]  Muller W, Wiederhold E. Applying decision tree methodology for
+rules extraction under cognitive constraints. Eur J Oper Res
+\item[[5]]Comparative study among different neural net learning
+algorithms applied to rainfall time series.METEOROLOGICAL APPLICATIONS
+Meteorol. Appl. 15: 273–280 (2008)
+\item[[6]]HEART DISEASE PREDICTION USING DATA MINING TECHNIQUES.ICTACT JOURNAL ON SOFT COMPUTING, OCTOBER 2018
+2002;136:282–9. 
 \end{itemize}
-%\textbf{Reference Papers:}
-\begin{itemize}
-\item[[2]]H. Harun, Water Crisis is real, Zahid wants industry players to use tech, innovation to better manage water resources. Kuala Lumpur: The New Straits Times 
-\item[[3]]Bernama. Selangor to face critical water shortage from 2017-2019, MB says. Kuala Lumpur: The Malay Mail Online. 
-\item[[4]]  F. F. Zulzaha. Suggestions for residents and Syabas on ways to counter water shortage. Kuala Lumpur: starproperty.my. 
-
-\item[[5]]J. M. Choong. Industries Fear Nation's Worst Water Crisis. Petaling Jaya: The Malay Mail Online.
-
-\item[[6]] Lai C.H., Phang W.L., and Chan N.W. (2013). A Study of Non-Revenue Water Management in Penang as an Example of Good Water Governance. 
-
-\item[[7]]M. D. Chow. M'sia Targets 'Non-Revenue Water' Reduction of 25 Percent by 2020: Water Ministry. Kuala Lumpur: The New Straits Times Online. 
-\end{itemize}
-
 \end{normalsize}
 \end{document}
